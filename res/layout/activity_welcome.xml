@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_centerHorizontal="true"
+         android:padding="@dimen/padding_medium"
+         android:text="@string/welcomeTitle"
+         android:textSize="40dp" />
+
+     <ImageView
+         android:id="@+id/imageViewS"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:src="@drawable/skyworks" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="false"
+          android:padding="@dimen/padding_medium"
+          android:text="@string/welcomeWord"
+          android:textSize="30dp" />
+
+</RelativeLayout>

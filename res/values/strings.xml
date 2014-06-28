@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">WXSXY</string>
+ 	<string name="welcomeTitle">"微型四旋翼"</string>
+    <string name="welcomeWord">"欢迎体验!"</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome</string>
+	<string name="title_activity_bluetoothconnect">Bluetooth Connect</string>
+	<string name="title_activity_control">Begin your motion</string>
+</resources>
